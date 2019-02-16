@@ -7,6 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-    Hello Git
+    <form method="post" action="up.php" enctype="multipart/form-data">
+    <input type="file" name="archivo">
+    <input type="submit" value="Subir">
+    </form>
+
 </body>
 </html>
